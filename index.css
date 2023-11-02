@@ -7,19 +7,16 @@ body{
     background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
     background: linear-gradient(to right, #3f2b96, #a8c0ff);
 }
-/* body>div{
-    height: 100%;
-    width: 100%;
-    
-} */
+
 .nav{
     display: flex;
     color: white;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     font-weight: 400;
-    justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 
@@ -77,7 +74,7 @@ body{
     color: white;
 }
 
-#part-of-speech, .saved_word_chip{
+#part-of-speech, #saved_words>div{
     height: fit-content;
     width: fit-content;
     font-weight: 600;
@@ -90,13 +87,15 @@ body{
     /* border: solid rgb(242,243,245) 3px; */
 }
 
-.saved_word_chip{
+#saved_words>div{
     display: flex;
     align-items: center;
     gap: 10px;
     background-color: white;
 }
-
+#saved_words>div:hover{
+    cursor: pointer;
+}
 #description{
     width: 100%;
     padding: 10px;
@@ -120,8 +119,8 @@ body{
 }
 
 .heading{
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 700;
 }
 
 
