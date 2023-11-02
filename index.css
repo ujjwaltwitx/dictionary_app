@@ -1,0 +1,139 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+}
+/* body>div{
+    height: 100%;
+    width: 100%;
+    
+} */
+.nav{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+.main-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    border-radius: 6px;
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.search-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.input-box{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-box:focus{
+    outline: none;
+}
+
+.meaning-card{
+    margin-bottom: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    width: 700px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.meaning-card>p{
+    color: white;
+}
+
+#part-of-speech, .saved_word_chip{
+    height: fit-content;
+    width: fit-content;
+    font-weight: 600;
+    padding: 8px 16px 8px 16px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: rgb(242,243,245);
+    /* border: solid rgb(242,243,245) 3px; */
+}
+
+.saved_word_chip{
+    background-color: white;
+}
+
+#description{
+    width: 100%;
+    padding: 10px;
+    /* background-color: rgb(242,243,245); */
+    border-radius: 8px;
+
+}
+
+#meaningsBox>p{
+    color: white;
+}
+
+
+.menus{
+    display: flex;
+    gap: 15px;
+}
+
+.menus>a{
+    text-decoration: none;
+    color: white;    
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.saved_words{
+    border-radius: 8px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: fit-content;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 20px;
+    /* background-color: white; */
+}
+
+
+
